@@ -1,0 +1,14 @@
+/* technique of writing styles */
+
+.cardWrapper{
+    composes :cardWrapper from '../../../App.module.css'
+
+}
+
+.termsCondn{
+    composes: termsCondn from '../StepPhoneEmail/StepPhoneEmail.module.css';
+ }
+
+.actionButtonWrapper{
+     composes: actionButtonWrapper from '../StepPhoneEmail/StepPhoneEmail.module.css';
+}
